@@ -29,7 +29,7 @@ fn main() {
     sleep(Duration::from_secs(10));
 
     let mut system = System::new_all();
-    let mut message = set_x_position("          Waiting for Minecraft process...", None).red(); // Mensaje inicial
+    let mut message = set_x_position("          Waiting for Minecraft process...", None).red();
 
     loop {
         system.refresh_all();
